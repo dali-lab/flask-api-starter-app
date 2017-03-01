@@ -8,7 +8,7 @@ install:
 script: flask test
 deploy:
   provider: heroku
-  app: pitchback-nlp
+  app: <APP_NAME>
   api_key:
     secure: <API_KEY>
 notifications:
