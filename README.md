@@ -17,11 +17,6 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-To setup spacy:
-```
-python -m spacy.en.download all
-```
-
 ### Usage
 
 ```
@@ -32,11 +27,6 @@ flask run
 ### Test
 ```
 flask test
-```
-
-### Curl Testing APIs
-```
-curl -X POST -H "Content-Type: audio/wav" --data-binary @/Users/jasonfeng/Downloads/emilia_clark_trim.wav localhost:5000/voice/tone
 ```
 
 ### Deployment for heroku servers
