@@ -29,6 +29,9 @@ flask run
 flask test
 ```
 
+### Setup Travis Deployment to Heroku
+> https://docs.travis-ci.com/user/deployment/heroku/
+
 ### Deployment for heroku servers
 ```
 gunicorn manage:app
