@@ -32,6 +32,9 @@ flask test
 ### Setup Travis Deployment to Heroku
 > https://docs.travis-ci.com/user/deployment/heroku/
 
+### Configuring Slack Notifications
+> https://docs.travis-ci.com/user/notifications#Configuring-slack-notifications
+
 ### Deployment for heroku servers
 ```
 gunicorn manage:app
